@@ -1,0 +1,1 @@
+CREATE TABLE `call_mgmt`.`10` ( `id` INT(50) NOT NULL AUTO_INCREMENT , `app_call` TEXT NOT NULL , `call_id` VARCHAR(25) NOT NULL , `call_start_t` TIME NOT NULL , `call_desc` TEXT NOT NULL , `call_sts` TEXT NOT NULL , `spare_det` TEXT NOT NULL , `otr_det` TEXT NOT NULL , `remarks` TEXT NOT NULL , `date` DATE NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
